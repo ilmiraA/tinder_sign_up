@@ -15,10 +15,13 @@ html{
     margin-left: 30%;
     color: #00243f;
     font-weight: bold;
+}
+
+.Reg{
     margin-top: 30%;
 }
 
-div{
+.div{
     background: #00457a;
     width: 90%;
     border-radius: 10px;
