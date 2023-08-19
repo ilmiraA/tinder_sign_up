@@ -1,0 +1,77 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    background-image: url(../img/UrFace.png);
+    background-size: cover;
+    height: 1150px;
+}
+
+#send{
+    color: #00457a;
+    font-size: 40px;
+    margin-top: 5%;
+    margin-left: 40%;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.LogIn{
+    background: white;
+    width: 800px;
+    height: 870px;
+    border-radius: 10px;
+    border-style: solid;
+    border-color: #00457a;
+    border-width: 3px;
+    margin-top: 30px;
+    margin-left: 20%;
+}
+
+.div{
+    display: inline-flex;
+    padding-top: 30px;
+    padding-left: 20px;
+}
+
+input{
+    height: 35px;
+    width: 250px;
+    border-width: 2px;
+    border-style: solid;
+    font-size: 25px;
+    border-color: white white #00457a white;
+}
+
+.p{
+    font-size: 27px;
+    margin-top: 12px;
+    margin-right: 5px;
+}
+
+p{
+    font-family: 'Montserrat', sans-serif;
+}
+
+.send{
+    background: #00457a;
+    border-radius: 10px;
+    color: white;
+    width: 350px;
+    height: 50px;
+    font-size: 28px;
+    margin-top: 35px;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    margin-left: 40%;
+}
+
+.send:hover{
+    background: #013258;
+}
+
+.send:active{
+    color: #d1d1d1;
+    background: #01233d;
+}
