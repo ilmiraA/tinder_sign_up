@@ -32,31 +32,27 @@ html{
 
 .div{
     display: inline-flex;
-    padding-top: 20px;
-    padding-left: 20px;
+    padding-top: 5%;
+    padding-left: 1%;
 }
 
 input{
-    height: 35px;
-    width: 250px;
+    height: 15%;
+    width: 30%;
     border-width: 2px;
     border-style: solid;
-    font-size: 25px;
+    font-size: 15%;
     border-color: white white #00457a white;
 }
 
-.input1{
-    margin-right: 70px;
-}
-
 .input2{
-    padding-top: 37px;
+    padding-top: 20%;
 }
 
 .p{
-    font-size: 27px;
-    margin-top: 12px;
-    margin-right: 5px;
+    font-size: 15%;
+    margin-top: 3%;
+    margin-right: 1%;
 }
 
 p{
