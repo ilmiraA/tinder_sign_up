@@ -11,6 +11,7 @@ html{
 
 .Regictr{
     margin-top: 10%;
+    text-align: center;
 }
 
 div{
@@ -28,11 +29,8 @@ p{
     font-family: 'Montserrat', sans-serif;
 }
 
-.pip{
-    padding-top: 3%;
-}
-
 #pip{
+    padding-top: 3%;
     padding-bottom: 3%;
 }
 
