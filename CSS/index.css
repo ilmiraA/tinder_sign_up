@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    background-image: url(../img/vxod1.png);
+    background-size: cover;
+    height: 100%;
+}
+
+.button1{
+    background: #00457a;
+    width: 30%;
+    border-radius: 10px;
+    margin-left: 35%;
+    margin-top: 12%;
+}
+
+.button2{
+    background: #00457a;
+    width: 30%;
+    border-radius: 10px;
+    height: 15%;
+    margin-top: 3%;
+    margin-left: 35%;
+}
+
+.button3{
+    background: #00457a;
+    width: 30%;
+    border-radius: 10px;
+    height: 15%;
+    margin-top: 3%;
+    margin-left: 35%;
+}
+
+p{
+    font-size: 120%;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.pip{
+    padding-top: 3%;
+}
+
+#pip{
+    padding-bottom: 3%;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+}
