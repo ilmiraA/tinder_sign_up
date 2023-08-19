@@ -38,3 +38,12 @@ a{
     color: white;
     text-decoration: none;
 }
+
+div:hover{
+    background: #003a66;
+}
+
+div:active{
+    background: #00243f;
+    color: #b4b4b4;
+}
