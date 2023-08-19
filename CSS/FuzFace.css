@@ -6,7 +6,7 @@
 html{
     background-image: url(../img/FuzFace.png);
     background-size: cover;
-    height: 1620px;
+    height: 720px;
 }
 
 #send{
@@ -20,7 +20,7 @@ html{
 .LogIn{
     background: white;
     width: 90%;
-    height: 1350px;
+    height: 700px;
     border-radius: 10px;
     border-style: solid;
     border-color: #00457a;
@@ -38,7 +38,7 @@ html{
 
 input{
     height: 15%;
-    width: 30%;
+    width: 35%;
     border-width: 2px;
     border-style: solid;
     font-size: 15%;
