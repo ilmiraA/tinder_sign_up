@@ -12,6 +12,10 @@ html{
 .Regictr{
     margin-top: 10%;
     text-align: center;
+    margin-left: 30%;
+    color: #00243f;
+    font-weight: bold;
+    padding-top: 30%;
 }
 
 div{
