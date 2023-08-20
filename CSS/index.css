@@ -24,15 +24,6 @@ html{
     margin-top: 30%;
 }
 
-.div{
-    background: #00457a;
-    width: 90%;
-    border-radius: 10px;
-    height: 10%;
-    margin-top: 3%;
-    margin-left: 5%;
-}
-
 #Face{
     background: #00457a;
     width: 90%;
@@ -40,6 +31,8 @@ html{
     height: 10%;
     margin-top: 3%;
     margin-left: 5%;
+    color: white;
+    font-size: 120%;
 }
 
 p{
@@ -67,3 +60,56 @@ a{
     color: #b4b4b4;
 }
 
+
+/*при переходе по кнопке: Как физическое лицо*/
+
+
+#send{
+    color: #002d50;
+    font-size: 25%;
+    margin-top: 5%;
+    margin-left: 40%;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.LogIn{
+    background: white;
+    width: 90%;
+    height: 1350px;
+    border-radius: 10px;
+    border-style: solid;
+    border-color: #00457a;
+    border-width: 3px;
+    margin-top: 60%;
+    margin-left: 5%;
+    display: block;
+}
+
+.div{
+    display: inline-flex;
+    padding-top: 20px;
+    padding-left: 20px;
+}
+
+input{
+    height: 30%;
+    width: 30%;
+    border-width: 2px;
+    border-style: solid;
+    font-size: 15%;
+    border-color: white white #00457a white;
+}
+
+.input1{
+    margin-right: 70px;
+}
+
+.input2{
+    padding-top: 37px;
+}
+
+.p{
+    font-size: 120%;
+    margin-top: 12px;
+    margin-right: 3%;
+}
