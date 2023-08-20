@@ -17,12 +17,13 @@
                 <p id="pip">Как физическое лицо</p>
             </a>
         </div>
-        <div class="div">
-            <a href="UrLuzo.html">
-                <p id="pip">Как юридическое лицо</p>
-            </a>
-        </div>
+        <button id="Face">Как юридическое лицо</button>
+        <script>
+            const button = document.querySelector('button');
+            button.addEventListener('click', function() {
+                document.body.innerHTML = '';
+            });
+        </script>
     </div>
-    
 </body>
 </html>
