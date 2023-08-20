@@ -69,14 +69,14 @@ a{
     color: #002d50;
     font-size: 120%;
     margin-top: 5%;
-    margin-left: 40%;
+    margin-left: 10%;
     font-family: 'Montserrat', sans-serif;
 }
 
 .LogIn{
     background: white;
     width: 90%;
-    height: 1350px;
+    height: 1600px;
     border-radius: 10px;
     border-style: solid;
     border-color: #00457a;
@@ -100,7 +100,7 @@ input{
     border-style: solid;
     font-size: 120%;
     border-color: white white #00457a white;
-    margin-top: 15%;
+    margin-top: 5%;
 }
 
 .input1{
@@ -115,6 +115,6 @@ input{
     font-size: 120%;
     margin-top: 12px;
     margin-right: 3%;
-    width: 40%;
+    width: 35%;
 }
 
