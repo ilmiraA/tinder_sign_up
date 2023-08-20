@@ -84,6 +84,7 @@ a{
     margin-top: 30%;
     margin-left: 5%;
     display: block;
+    margin-bottom: 5%;
 }
 
 .div{
@@ -94,11 +95,12 @@ a{
 
 input{
     height: 30%;
-    width: 30%;
+    width: 40%;
     border-width: 2px;
     border-style: solid;
-    font-size: 15%;
+    font-size: 120%;
     border-color: white white #00457a white;
+    margin-top: 15%;
 }
 
 .input1{
@@ -113,4 +115,6 @@ input{
     font-size: 120%;
     margin-top: 12px;
     margin-right: 3%;
+    width: 40%;
 }
+
