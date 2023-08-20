@@ -4,13 +4,13 @@
 }
 
 html{
-    background-image: url(../img/obor.png);
+    background-image: url(../img/vxod1.png);
     background-size: cover;
-    height: 880px;
+    height: 100%;
 }
 
 #send{
-    color: #00457a;
+    color: #00243f;
     font-size: 40px;
     margin-top: 5%;
     margin-left: 40%;
@@ -55,31 +55,7 @@ input{
 }
 
 p{
-    font-size: 27px;
-    margin-top: 12px;
-    margin-right: 5px;
-    font-family: 'Montserrat', sans-serif;
-}
-
-.send{
-    background: #00457a;
-    border-radius: 10px;
-    color: white;
-    width: 350px;
-    height: 50px;
-    font-size: 28px;
-    margin-top: 35px;
+    font-size: 120%;
     text-align: center;
     font-family: 'Montserrat', sans-serif;
-    margin-left: 40%;
-    border-style: none;
-}
-
-.send:hover{
-    background: #013258;
-}
-
-.send:active{
-    color: #d1d1d1;
-    background: #01233d;
 }
