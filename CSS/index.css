@@ -44,16 +44,45 @@ p{
     padding-bottom: 3%;
 }
 
-a{
-    color: white;
-    text-decoration: none;
+
+/*При переходе на: как юридическое лицо*/
+
+
+#send{
+    color: #00457a;
+    font-size: 17%;
+    margin-top: 5%;
+    margin-left: 40%;
+    font-family: 'Montserrat', sans-serif;
 }
 
-.div:hover{
-    background: #003a66;
+.LogIn{
+    width: 90%;
+    height: 400px;
+    margin-top: 5%;
+    margin-left: 5%;
 }
 
-.div:active{
-    background: #00243f;
-    color: #b4b4b4;
+.div{
+    padding-top: 30px;
+    padding-left: 20px;
+}
+
+input{
+    height: 15%;
+    width: 30%;
+    border-width: 2px;
+    border-style: solid;
+    font-size: 15%;
+    border-color: white white #00457a white;
+}
+
+.p{
+    font-size: 15%;
+    margin-top: 12px;
+    margin-right: 5px;
+}
+
+p{
+    font-family: 'Montserrat', sans-serif;
 }
