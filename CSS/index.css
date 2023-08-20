@@ -33,6 +33,15 @@ html{
     margin-left: 5%;
 }
 
+#Face{
+    background: #00457a;
+    width: 90%;
+    border-radius: 10px;
+    height: 10%;
+    margin-top: 3%;
+    margin-left: 5%;
+}
+
 p{
     font-size: 120%;
     text-align: center;
@@ -49,11 +58,12 @@ a{
     text-decoration: none;
 }
 
-.div:hover{
+#Face:hover{
     background: #003a66;
 }
 
-.div:active{
+#Face:active{
     background: #00243f;
     color: #b4b4b4;
 }
+

@@ -12,11 +12,13 @@
         <div class="Reg">
             <p class="Registr">Регистрация</p>
         </div>
-        <div class="div">
-            <a href="./FuzFace.html">
-                <p id="pip">Как физическое лицо</p>
-            </a>
-        </div>
+            <button id="Face">Как физическое лицо</button>
+        <script>
+            const button = document.querySelector('button');
+            button.addEventListener('click', function() {
+                document.body.innerHTML = '<p id="send">Регистрация</p><form action="Glavnaya.html"><div class="div"><p class="p">Фамилия:</p><input type="text" class="input1"></div><div class="div"><p class="p">Имя:</p><input type="text"></div><div class="div"><p class="p">Отчество (при наличии):</p><input type="text"></div><div class="div"><p class="p">Дата рождения:</p><input type="date"></div><div class="div"><p class="p">Серия и номер паспорта:</p><input type="text" maxlength="11" minlength="11"></div><div class="div"><p class="p">Дата выдачи паспорта:</p><input type="text" maxlength="10" minlength="10"></div><div class="div"><p class="p">Кем выдан:</p><input type="text"></div><div class="div"><p class="p">Код подразделения:</p><input type="text" maxlength="7" minlength="7"></div><div class="div"><p class="p">Адрес регистрации:</p><input type="text"></div><div class="div"><p class="p">Почтовый индекс:</p><input type="text" maxlength="6" minlength="6"></div><div class="div"><p class="p">Адрес фактического проживания:</p><input type="text"></div><div class="div"><p class="p">Почтовый индекс:</p><input type="text" maxlength="6" minlength="6"></div><div class="div"><p class="p">СНИЛС:</p><input type="text" class="input1" maxlength="11" minlength="11"></div><div class="div"><p class="p">ИНН:</p><input type="text" maxlength="13" minlength="13"></div><div class="div"><p class="p" id="p">Кадастровый номер земельного участка (при наличии):</p><input type="text" class="input2" maxlength="12" minlength="12"></div><div class="div"><p class="p">Номер контактного телефона:</p><input type="tel" maxlength="12" minlength="11"></div><div class="div"><p class="p">Электронная почта:</p><input type="email"></div><div class="div"><p class="p">Скан паспорта:</p><input type="file"></div><div class="div"><p class="p" id="password">Пароль:</p><input type="password" minlength="8" id="diag_nap_uchr"></div><div class="div"><p class="p" id="too_password">Повторите пароль:</p><input type="password" minlength="8" id="diag_osn"></div></div></form>';
+            });
+        </script>
         <div class="div">
             <a href="./UrLuzo.html">
                 <p id="pip">Как юридическое лицо</p>
