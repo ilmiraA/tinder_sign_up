@@ -24,7 +24,19 @@ html{
     margin-top: 30%;
 }
 
-#Face{
+#FaceF{
+    background: #00457a;
+    width: 90%;
+    border-radius: 10px;
+    height: 10%;
+    margin-top: 3%;
+    margin-left: 5%;
+    color: white;
+    font-size: 120%;
+    border-style: none;
+}
+
+#FaceU{
     background: #00457a;
     width: 90%;
     border-radius: 10px;
@@ -80,13 +92,13 @@ p{
 }
 
 input{
-    height: 50%;
+    height: 70%;
     width: 90%;
     border-width: 2px;
     border-style: solid;
     font-size: 120%;
-    border-color: white white #00457a white;
-    margin-top: 1%;
+    border-color: white;
+    margin-top: 3%;
     margin-left: 5%;
 }
 
