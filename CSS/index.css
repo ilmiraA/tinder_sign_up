@@ -24,13 +24,16 @@ html{
     margin-top: 30%;
 }
 
-.div{
+#Face{
     background: #00457a;
     width: 90%;
     border-radius: 10px;
     height: 10%;
     margin-top: 3%;
     margin-left: 5%;
+    color: white;
+    font-size: 120%;
+    border-style: none;
 }
 
 p{
@@ -44,43 +47,55 @@ p{
     padding-bottom: 3%;
 }
 
+#Face:hover{
+    background: #003a66;
+}
 
-/*При переходе на: как юридическое лицо*/
+#Face:active{
+    background: #00243f;
+    color: #b4b4b4;
+}
+
+
+/*при переходе по кнопке: Как юридическое лицо*/
 
 
 #send{
-    color: #00457a;
-    font-size: 17%;
-    margin-top: 5%;
-    margin-left: 40%;
+    color: #ffffff;
+    font-size: 140%;
+    margin-top: 10%;
+    margin-left: 4%;
     font-family: 'Montserrat', sans-serif;
 }
 
 .LogIn{
-    width: 90%;
-    height: 400px;
-    margin-top: 5%;
+    width: 100%;
+    height: 600px;
+    margin-top: 10%;
     margin-left: 5%;
 }
 
 .div{
-    padding-top: 30px;
-    padding-left: 20px;
+    padding-top: 20px;
 }
 
 input{
-    height: 15%;
-    width: 30%;
+    height: 50%;
+    width: 90%;
     border-width: 2px;
     border-style: solid;
-    font-size: 15%;
+    font-size: 120%;
     border-color: white white #00457a white;
+    margin-top: 1%;
+    margin-left: 5%;
 }
 
 .p{
-    font-size: 15%;
-    margin-top: 12px;
-    margin-right: 5px;
+    font-size: 130%;
+    margin-top: 2%;
+    text-align: left;
+    margin-left: 5%;
+    color: white;
 }
 
 p{
