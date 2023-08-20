@@ -68,15 +68,15 @@ a{
 #send{
     color: #002d50;
     font-size: 140%;
-    margin-top: 5%;
-    margin-left: 5%;
+    margin-top: 10%;
+    margin-left: 4%;
     font-family: 'Montserrat', sans-serif;
 }
 
 .LogIn{
     background: white;
     width: 90%;
-    height: 2100px;
+    height: 1800px;
     border-radius: 10px;
     border-style: solid;
     border-color: #00457a;
@@ -89,7 +89,7 @@ a{
 
 .div{
     padding-top: 20px;
-    padding-left: 5%;
+    padding-left: 10%;
 }
 
 input{
