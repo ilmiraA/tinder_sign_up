@@ -29,7 +29,10 @@
             var input3 = document.createElement("input");  
             var div4 = document.createElement("div");  
             var p4 = document.createElement("p"); 
-            var input4 = document.createElement("input");                                                           
+            var input4 = document.createElement("input");  
+            var div5 = document.createElement("div");  
+            var p5 = document.createElement("p"); 
+            var input5 = document.createElement("input");                                                           
     
             form.setAttribute("method", "post");
             divL.setAttribute("class", "LogIn");
@@ -50,6 +53,8 @@
             input3.setAttribute("minlength", "6");
             div4.setAttribute("class", "div");
             input4.setAttribute("type", "text");
+            div5.setAttribute("class", "div");
+            input5.setAttribute("type", "text");
 
             p.textContent = "Тип устройства";
             option0.textContent = "Не выбрано";
@@ -61,6 +66,7 @@
             p2.textContent = "Модель";
             p3.textContent = "Номер сертификата";
             p4.textContent = "Генерирующая мощность";
+            p5.textContent = "Ёмкость (для накопителей)";
 
             form.appendChild(divL);
             divL.appendChild(div);
@@ -87,6 +93,10 @@
             divL.appendChild(div4);
             div4.appendChild(p4);
             div4.appendChild(input4);
+
+            divL.appendChild(div5);
+            div5.appendChild(p5);
+            div5.appendChild(input5);
 
             document.body.appendChild(form);
         }
