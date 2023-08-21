@@ -26,7 +26,10 @@
             var input2 = document.createElement("input"); 
             var div3 = document.createElement("div");  
             var p3 = document.createElement("p"); 
-            var input3 = document.createElement("input");                                                            
+            var input3 = document.createElement("input");  
+            var div4 = document.createElement("div");  
+            var p4 = document.createElement("p"); 
+            var input4 = document.createElement("input");                                                           
     
             form.setAttribute("method", "post");
             divL.setAttribute("class", "LogIn");
@@ -45,6 +48,8 @@
             input3.setAttribute("type", "text");
             input3.setAttribute("maxlength", "6");
             input3.setAttribute("minlength", "6");
+            div4.setAttribute("class", "div");
+            input4.setAttribute("type", "text");
 
             p.textContent = "Тип устройства";
             option0.textContent = "Не выбрано";
@@ -55,6 +60,7 @@
             optiond.textContent = "Выберите устройство выше";
             p2.textContent = "Модель";
             p3.textContent = "Номер сертификата";
+            p4.textContent = "Генерирующая мощность";
 
             form.appendChild(divL);
             divL.appendChild(div);
@@ -77,6 +83,10 @@
             divL.appendChild(div3);
             div3.appendChild(p3);
             div3.appendChild(input3);
+
+            divL.appendChild(div4);
+            div4.appendChild(p4);
+            div4.appendChild(input4);
 
             document.body.appendChild(form);
         }
