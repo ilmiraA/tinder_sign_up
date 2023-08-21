@@ -16,7 +16,11 @@
             var option0 = document.createElement("option");
             var option1 = document.createElement("option"); 
             var option2 = document.createElement("option"); 
-            var option3 = document.createElement("option");                                                                    
+            var option3 = document.createElement("option");
+            var div1 = document.createElement("div");  
+            var p1 = document.createElement("p");  
+            var selects = document.createElement("select");
+            var optiond = document.createElement("option");                                                                
     
             form.setAttribute("method", "post");
             divL.setAttribute("class", "LogIn");
@@ -26,12 +30,17 @@
             option1.setAttribute("value", "option1");
             option2.setAttribute("value", "option2");
             option3.setAttribute("value", "option3");
+            div1.setAttribute("class", "div");
+            selects.setAttribute("id", "second");
+            optiond.setAttribute("value", "default");
 
             p.textContent = "Тип устройства";
             option0.textContent = "Не выбрано";
             option1.textContent = "Генерирующие оборудование";
             option2.textContent = "Накопитель";
             option3.textContent = "Преобразователь";
+            p1.textContent = "Устройство";
+            optiond.textContent = "Выберите устройство выше";
 
             form.appendChild(divL);
             divL.appendChild(div);
@@ -42,6 +51,10 @@
             selectf.appendChild(option2);
             selectf.appendChild(option3);
 
+            divL.appendChild(div1);
+            div1.appendChild(p1);
+            div1.appendChild(selects);
+            selects.appendChild(optiond);
 
             document.body.appendChild(form);
         }
