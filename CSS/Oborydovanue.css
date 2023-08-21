@@ -13,7 +13,7 @@ html{
     color: #00243f;
     font-size: 40px;
     margin-top: 5%;
-    margin-left: 40%;
+    margin-left: 5%;
     font-family: 'Montserrat', sans-serif;
 }
 
@@ -58,4 +58,15 @@ p{
     font-size: 120%;
     text-align: center;
     font-family: 'Montserrat', sans-serif;
+}
+
+button{
+    border-style: none;
+    width: 70%;
+    margin-left: 15%;
+    font-size: 120%;
+    margin-top: 10%;
+    border-radius: 10px;
+    color: white;
+    background: #00457a;
 }
