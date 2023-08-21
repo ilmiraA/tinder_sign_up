@@ -155,13 +155,15 @@
                     secondDropdown.appendChild(optionElement);
                 });
             });
-            document.body.appendChild(form);
+            let but = document.querySelector('#button')
+
+            document.body.insertBefore(form, but);
         }
     </script>
     
 </head>
 <body>
     <p id="send">Создание энергетического блока</p>
-    <button onclick="createForm()">Добавить оборудование</button>
+    <button onclick="createForm()" id="button">Добавить оборудование</button>
 </body>
 </html>
