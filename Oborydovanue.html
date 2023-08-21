@@ -38,7 +38,12 @@
             var input6 = document.createElement("input");
             var div7 = document.createElement("div");  
             var p7 = document.createElement("p"); 
-            var input7 = document.createElement("input");                                                        
+            var input7 = document.createElement("input");
+            var div8 = document.createElement("div");
+            var p8 = document.createElement("p");
+            var select = document.createElement("select"); 
+            var option8 = document.createElement("option");
+            var option8_1 = document.createElement("option");                                                         
     
             form.setAttribute("method", "post");
             divL.setAttribute("class", "LogIn");
@@ -65,6 +70,7 @@
             input6.setAttribute("type", "date");
             div7.setAttribute("class", "div");
             input7.setAttribute("type", "text");
+            div8.setAttribute("class", "div");
 
             p.textContent = "Тип устройства";
             option0.textContent = "Не выбрано";
@@ -79,6 +85,9 @@
             p5.textContent = "Ёмкость (для накопителей)";
             p6.textContent = "Дата установки";
             p7.textContent = "Срок эксплуатации";
+            p8.textContent = "Статус";
+            option8.textContent = "В работе";
+            option8_1.textContent = "В ремонте";
 
             form.appendChild(divL);
             divL.appendChild(div);
@@ -117,6 +126,12 @@
             divL.appendChild(div7);
             div7.appendChild(p7);
             div7.appendChild(input7);
+
+            divL.appendChild(div8);
+            div8.appendChild(p8);
+            div8.appendChild(select);
+            select.appendChild(option8);
+            select.appendChild(option8_1);
 
             document.body.appendChild(form);
         }
