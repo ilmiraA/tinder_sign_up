@@ -32,7 +32,13 @@
             var input4 = document.createElement("input");  
             var div5 = document.createElement("div");  
             var p5 = document.createElement("p"); 
-            var input5 = document.createElement("input");                                                           
+            var input5 = document.createElement("input");   
+            var div6 = document.createElement("div");  
+            var p6 = document.createElement("p"); 
+            var input6 = document.createElement("input");
+            var div7 = document.createElement("div");  
+            var p7 = document.createElement("p"); 
+            var input7 = document.createElement("input");                                                        
     
             form.setAttribute("method", "post");
             divL.setAttribute("class", "LogIn");
@@ -55,6 +61,10 @@
             input4.setAttribute("type", "text");
             div5.setAttribute("class", "div");
             input5.setAttribute("type", "text");
+            div6.setAttribute("class", "div");
+            input6.setAttribute("type", "date");
+            div7.setAttribute("class", "div");
+            input7.setAttribute("type", "text");
 
             p.textContent = "Тип устройства";
             option0.textContent = "Не выбрано";
@@ -67,6 +77,8 @@
             p3.textContent = "Номер сертификата";
             p4.textContent = "Генерирующая мощность";
             p5.textContent = "Ёмкость (для накопителей)";
+            p6.textContent = "Дата установки";
+            p7.textContent = "Срок эксплуатации";
 
             form.appendChild(divL);
             divL.appendChild(div);
@@ -97,6 +109,14 @@
             divL.appendChild(div5);
             div5.appendChild(p5);
             div5.appendChild(input5);
+
+            divL.appendChild(div6);
+            div6.appendChild(p6);
+            div6.appendChild(input6);
+
+            divL.appendChild(div7);
+            div7.appendChild(p7);
+            div7.appendChild(input7);
 
             document.body.appendChild(form);
         }
