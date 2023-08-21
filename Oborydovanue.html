@@ -9,21 +9,16 @@
     <script>
         function createForm() {
             var form = document.createElement("form");
-            var div = document.createElement("div");
-            var p = document.createElement("p");
+            var divL = document.createElement("div");
+    
+            form.setAttribute("method", "post");
+            divL.setAttribute("class", "LogIn");
+    
+            form.appendChild(divL);
 
-            // Set attributes for the div element
-            div.setAttribute("class", "my-class");
-
-            // Set text content for the p element
-            p.textContent = "This is a new paragraph.";
-
-            // Append the new elements to the form
-            var form = document.getElementById("my-form");
-            form.appendChild(div);
-            div.appendChild(p);
+            document.body.appendChild(form);
         }
-    </script> 
+    </script>
 </head>
 <body>
     <button onclick="createForm()">Create Form</button>
@@ -69,10 +64,6 @@
                   });
                 });
               </script>
-            <div class="div">
-                <p>Модель</p>
-                <input type="text">
-            </div>
             <div class="div">
                 <p>Номер сертификата</p>
                 <input type="text" maxlength="6" minlength="6">
