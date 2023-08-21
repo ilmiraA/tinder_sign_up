@@ -6,10 +6,29 @@
     <title>Document</title>
     <link rel="stylesheet" href="CSS/Oborydovanue.css">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+    <script>
+        function createForm() {
+            var form = document.createElement("form");
+            var div = document.createElement("div");
+            var p = document.createElement("p");
+
+            // Set attributes for the div element
+            div.setAttribute("class", "my-class");
+
+            // Set text content for the p element
+            p.textContent = "This is a new paragraph.";
+
+            // Append the new elements to the form
+            var form = document.getElementById("my-form");
+            form.appendChild(div);
+            div.appendChild(p);
+        }
+    </script> 
 </head>
 <body>
+    <button onclick="createForm()">Create Form</button>
     <p id="send">Оборудование</p>
-    <form action="Glavnaya.html">
+    <form action="">
         <div class="LogIn">
             <div class="div">
                 <p>Тип устройства</p>
@@ -28,12 +47,10 @@
             </div>
             <script>
                 const firstDropdown = document.getElementById("first");
-                const secondDropdown = document.getElementById("second");
-              
+                const secondDropdown = document.getElementById("second");             
                 firstDropdown.addEventListener("change", function() {
                   const selectedValue = firstDropdown.value;
-                  let options = [];
-              
+                  let options = [];              
                   if (selectedValue === "option1") {
                     options = ["Солнечные панели", "Дизельный генератор", "Ветряной генератор", "Гидрогенератор"];
                   } else if (selectedValue === "option2") {
@@ -43,7 +60,6 @@
                   } else if (selectedValue === "option0") {
                     options = ["Выберите устройство выше"]
                   }
-              
                   secondDropdown.innerHTML = "";
                   options.forEach(function(option) {
                     const optionElement = document.createElement("option");
