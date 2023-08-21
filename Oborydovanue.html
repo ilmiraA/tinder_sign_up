@@ -20,7 +20,13 @@
             var div1 = document.createElement("div");  
             var p1 = document.createElement("p");  
             var selects = document.createElement("select");
-            var optiond = document.createElement("option");                                                                
+            var optiond = document.createElement("option"); 
+            var div2 = document.createElement("div");  
+            var p2 = document.createElement("p"); 
+            var input2 = document.createElement("input"); 
+            var div3 = document.createElement("div");  
+            var p3 = document.createElement("p"); 
+            var input3 = document.createElement("input");                                                            
     
             form.setAttribute("method", "post");
             divL.setAttribute("class", "LogIn");
@@ -33,6 +39,12 @@
             div1.setAttribute("class", "div");
             selects.setAttribute("id", "second");
             optiond.setAttribute("value", "default");
+            div2.setAttribute("class", "div");
+            input2.setAttribute("type", "text");
+            div3.setAttribute("class", "div");
+            input3.setAttribute("type", "text");
+            input3.setAttribute("maxlength", "6");
+            input3.setAttribute("minlength", "6");
 
             p.textContent = "Тип устройства";
             option0.textContent = "Не выбрано";
@@ -41,6 +53,8 @@
             option3.textContent = "Преобразователь";
             p1.textContent = "Устройство";
             optiond.textContent = "Выберите устройство выше";
+            p2.textContent = "Модель";
+            p3.textContent = "Номер сертификата";
 
             form.appendChild(divL);
             divL.appendChild(div);
@@ -55,6 +69,14 @@
             div1.appendChild(p1);
             div1.appendChild(selects);
             selects.appendChild(optiond);
+
+            divL.appendChild(div2);
+            div2.appendChild(p2);
+            div2.appendChild(input2);
+
+            divL.appendChild(div3);
+            div3.appendChild(p3);
+            div3.appendChild(input3);
 
             document.body.appendChild(form);
         }
@@ -105,6 +127,10 @@
                     });
                 });
             </script>
+            <div class="div">
+                <p>Модель</p>
+                <input type="text">
+            </div>
             <div class="div">
                 <p>Номер сертификата</p>
                 <input type="text" maxlength="6" minlength="6">
